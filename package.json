@@ -1,8 +1,8 @@
 {
   "name": "robocom-random",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lehmer random number generator for RoboCom game",
-  "main": "src/random.coffee",
+  "main": "lib/random.js",
   "scripts": {
     "build": "coffee -o lib/ src/",
     "test": "coffee test/testRandom.coffee"
