@@ -8,6 +8,9 @@
     "test": "coffee test/testRandom.coffee",
     "prepublish": "npm run -s build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pastaclub/robocom-random.git"
   "keywords": [
     "robocom",
     "pseudo-random",
