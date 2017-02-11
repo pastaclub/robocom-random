@@ -1,0 +1,22 @@
+{
+  "name": "robocom-random",
+  "version": "1.0.0",
+  "description": "Lehmer random number generator for RoboCom game",
+  "main": "src/random.coffee",
+  "scripts": {
+    "build": "coffee -o lib/ src/",
+    "test": "coffee test/testRandom.coffee"
+  },
+  "keywords": [
+    "robocom",
+    "pseudo-random",
+    "prng",
+    "lehmer",
+    "park-miller"
+  ],
+  "author": "Dennis Bemmann",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.12.3"
+  }
+}
