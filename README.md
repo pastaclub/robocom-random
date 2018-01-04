@@ -33,7 +33,7 @@ robocom-random is a simple, predictable, deterministic Lehmer pseudo-random numb
 When a simulation is setup, the PRNG is invoked in the following order:
 
 	for each program to be added to the simulation
-	    $ID of program = randomInt(maxID - minID + 1) + minID
+	    $ID of program = random.int(maxID - minID + 1) + minID
 	    repeat
 	        x = random.int(fieldsX)
 	        y = random.int(fieldsY)
